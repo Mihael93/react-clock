@@ -1,18 +1,15 @@
 body {
-   margin: 0;
-   font-size: 2rem;
    display: flex;
-   flex: 1;
    min-height: 100vh;
    align-items: center;
    justify-content: center;
 }
 
 .clock {
-   width: 30rem;
-   height: 30rem;
+   width: 300px;
+   height: 300px;
    position: relative;
-   border: 7px solid #282828;
+   border: 7px solid #493739;
    border-radius: 50%;
    box-shadow: -4px -4px 10px rgba(67, 67, 67, 0.5),
       inset 4px 4px 10px rgba(0, 0, 0, 0.5),
@@ -22,7 +19,7 @@ body {
 
 .clock__outer-face {
    position: relative;
-   background: #282828;
+   background: #493739;
    overflow: hidden;
    width: 100%;
    height: 100%;
@@ -82,7 +79,7 @@ body {
    left: 10%;
    width: 80%;
    height: 80%;
-   background: #282828;
+   background: #493739;
    -webkit-border-radius: 100%;
    -moz-border-radius: 100%;
    border-radius: 100%;

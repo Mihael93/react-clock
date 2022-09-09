@@ -36,18 +36,16 @@ function AnalogClock() {
    };
 
    return (
-      <div>
-         <div className="clock">
-            <div className='clock__outer-face'>
-               <div className="marking marking-one"></div>
-               <div className="marking marking-two"></div>
-               <div className="marking marking-three"></div>
-               <div className="marking marking-four"></div>
-               <div className='clock__inner-face'>
-                  <div className="hand hour-hand" style={{ transform: `${hours}` }} ></div>
-                  <div className="hand min-hand" style={{ transform: `${minutes}` }}></div>
-                  <div className="hand second-hand" style={{ transform: `${seconds}` }}></div>
-               </div>
+      <div className="clock">
+         <div className='clock__outer-face'>
+            <div className="marking marking-one"></div>
+            <div className="marking marking-two"></div>
+            <div className="marking marking-three"></div>
+            <div className="marking marking-four"></div>
+            <div className='clock__inner-face'>
+               <div className="hand hour-hand" style={{ transform: `${hours}` }} ></div>
+               <div className="hand min-hand" style={{ transform: `${minutes}` }}></div>
+               <div className="hand second-hand" style={{ transform: `${seconds}` }}></div>
             </div>
          </div>
       </div>
